@@ -1,0 +1,26 @@
+name: my_couchbase_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cbl: ^3.0.0
+  cbl_flutter: ^3.0.0
+  cbl_flutter_ce: ^3.0.0
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner:
+
+flutter:
+  uses-material-design: true
+  
